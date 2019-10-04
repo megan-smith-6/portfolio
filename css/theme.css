@@ -2,6 +2,7 @@
   --color-primary: #24bbf2;
   --color-secondary: #ff9160;
   --color-secondary-dark: #7b7b7b;
+  --color-accent-white: #fff;
   --font-primary: "Nunito", sans-serif;
 }
 
@@ -28,3 +29,10 @@ ol, li {
   list-style: none;
   text-decoration: none;
   color: var(--color-secondary-dark);
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: var(--color-secondary-dark);
+}
