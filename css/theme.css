@@ -22,3 +22,9 @@ h6 {
   color: var(--color-secondary-dark);
   font-weight: normal;
 }
+
+ul, li
+ol, li {
+  list-style: none;
+  text-decoration: none;
+  color: var(--color-secondary-dark);
