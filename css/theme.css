@@ -8,3 +8,17 @@
 html {
   font-family: var(--font-primary);
 }
+
+h1 {
+  color: var(--color-secondary-dark);
+  font-weight: bold;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-secondary-dark);
+  font-weight: normal;
+}
