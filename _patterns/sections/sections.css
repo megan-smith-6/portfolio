@@ -1,3 +1,8 @@
 .border-btm {
   border-bottom: 8px solid var(--color-primary);
 }
+
+.h1-border {
+  border-bottom: 8px solid var(--color-secondary);
+  max-width: 45%;
+}
