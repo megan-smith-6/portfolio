@@ -2,11 +2,12 @@
   border-bottom: 8px solid var(--color-primary);
 }
 
-.grey {
-  filter: grayscale(100%);
+.border-img img {
+  filter: grayscale(80%);
+  transition: all 250ms ease;
 }
 
-.border-img:hover {
+.border-img:hover img {
   border-bottom: 8px solid var(--color-secondary);
   filter: grayscale(0);
   transition: all 250ms ease;
