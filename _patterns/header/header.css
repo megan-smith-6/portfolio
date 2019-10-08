@@ -10,6 +10,10 @@
   border-bottom: 4px solid transparent;
 }
 
+.nav-current {
+  color: var(--color-secondary);
+}
+
 header {
   background-color: var(--color-accent-white);
 }
