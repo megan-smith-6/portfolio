@@ -4,6 +4,6 @@
 
 .border-img:hover{
   border-bottom: 8px solid var(--color-secondary);
-  transform: scale(1.1);
+  transform: scale(1.050);
   transition: all 135ms ease;
 }
