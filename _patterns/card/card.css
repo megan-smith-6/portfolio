@@ -2,13 +2,8 @@
   border-bottom: 8px solid var(--color-primary);
 }
 
-.border-img img {
-  filter: grayscale(80%);
-  transition: all 250ms ease;
-}
-
-.border-img:hover img {
+.border-img:hover{
   border-bottom: 8px solid var(--color-secondary);
-  filter: grayscale(0);
-  transition: all 250ms ease;
+  transform: scale(1.1);
+  transition: all 135ms ease;
 }
