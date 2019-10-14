@@ -1,0 +1,21 @@
+title: "Sections"
+description: |
+  This website has many sections and each section is different.
+
+patterns:
+    card-section:
+      title: "Card Section"
+      description: |
+        The card section is a group of four clickable cards that will be linked to each project page. It is located on the homepage.
+    image-carousel:
+      title: "Image Carousel"
+      description: |
+        The image carousel will be used on each project page to show a variety of images that represent the project.
+    image-text-section:
+      title: "Image Text Section"
+      description: |
+        This section will be used at the top of the about page and at the top of each project page. The image will be replaced the finished project image. and the text will explain the project.
+    text-section:
+      title: "Text Section"
+      description: |
+        The text section looks the same as the one featured in the image section, but this one stands alone. It goes on the homepage.
