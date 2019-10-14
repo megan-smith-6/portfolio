@@ -1,0 +1,9 @@
+title: "Cards"
+description: |
+  Cards are important in this website because they are used on almost every page. They provide the users with lots of details about the pages.
+
+patterns:
+    clickable-card:
+      title: "Clickable Card"
+      description: |
+        The clickable card is used to show a small thumbnail of each project. Once clicked it will take you to the designated project page.
