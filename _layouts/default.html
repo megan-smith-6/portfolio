@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Wick It</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="/css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet">
+</head>
+<body>
+
+<ul class="skip-links">
+  <li>
+    <a href="#nav">Jump to nav</a>
+    <a href="#main">Jump to main content</a>
+  </li>
+</ul>
+
+<nav id="nav" role="nav">
+{% pattern header/header %}
+</nav>
+<main id="main" role="main" tabindex="0">
+  {{content}}
+</main>
+{% pattern footer/footer %}
+
+</body>
+</html>
