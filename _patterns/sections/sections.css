@@ -11,6 +11,26 @@
   display: none;
 }
 
+.card-1 {
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+.card-2 {
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
+.card-3 {
+  padding-right: 1em;
+  padding-top: 1em;
+}
+
+.card-4 {
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
 #image-1-control:checked ~ .carousel-inner #image-1,
 #image-2-control:checked ~ .carousel-inner #image-2,
 #image-3-control:checked ~ .carousel-inner #image-3,
