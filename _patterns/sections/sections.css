@@ -23,6 +23,10 @@
   padding-bottom: 2em;
 }
 
+.card-4 {
+  padding-bottom: 2em;
+}
+
 #image-1-control:checked ~ .carousel-inner #image-1,
 #image-2-control:checked ~ .carousel-inner #image-2,
 #image-3-control:checked ~ .carousel-inner #image-3,
@@ -66,12 +70,8 @@
     padding-bottom: 0;
   }
 
-}
-
-@media only screen and (min-width: 54em) {
-
-  .l-pad {
-    padding-left: 12vw;
+  .r-pad {
+    padding-right: 12vw;
   }
 
 }
