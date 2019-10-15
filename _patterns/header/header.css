@@ -4,10 +4,11 @@
 
 .nav-btn:hover {
   border-bottom: 4px solid var(--color-secondary);
+  transition: all 135ms ease;
 }
 
 .logo:hover {
-  transform: scale(1.025,1.025);
+  transform: scale(1.1);
   transition: all 135ms ease;
 }
 
@@ -20,11 +21,6 @@
   color: var(--color-secondary);
   border-bottom: 4px solid var(--color-secondary);
 }
-
-/* .max-h {
-  max-width: 2em;
-  max-height: 2em;
-} */
 
 header {
   background-color: var(--color-accent-white);
