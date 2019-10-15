@@ -6,10 +6,10 @@
   border-bottom: 4px solid var(--color-secondary);
 }
 
-/* .l-hover {
-  transform: scale(1.050);
+.logo:hover {
+  transform: scale(1.025,1.025);
   transition: all 135ms ease;
-} */
+}
 
 .nav-btn {
   border-bottom: 4px solid transparent;
