@@ -11,6 +11,14 @@
   display: none;
 }
 
+.l-pad {
+  padding-left: 12vw;
+}
+
+.r-pad {
+  padding-right: 8vw;
+}
+
 .card-1 {
   padding-right: 1em;
   padding-bottom: 1em;
