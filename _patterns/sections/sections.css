@@ -7,8 +7,8 @@
   max-width: 55%;
 }
 
-.carousel-items > div {
-  display: none;
+.grey {
+  color: var(--color-secondary-dark);
 }
 
 .card-1 {
@@ -25,6 +25,10 @@
 
 .card-4 {
   padding-bottom: 2em;
+}
+
+.carousel-items > div {
+  display: none;
 }
 
 #image-1-control:checked ~ .carousel-inner #image-1,
