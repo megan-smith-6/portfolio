@@ -1,3 +1,27 @@
 permalink: pretty
 
 theme: jekyll_patternbot
+
+patternbot:
+  title: "Megan Smith's Portfolio"
+  description: |
+    "This is Megan's online portfolio that will be used to show her design work"
+  font_url: "https://fonts.googleapis.com/css?family=Nunito:400,700"
+  colors:
+    background: "--color-accent-white"
+    accent: "--color-primary"
+    patterns:
+      brand.logos: "--color-accent-white"
+  rationales:
+    typefaces.primary: |
+      Nunito was selected because it's bubbly and fun, just llike me.
+    colors.primary: |
+      The primary colour is the same colour as used in the logo, so it makes the website look consitent with the brand.
+    colors.secondary: |
+      The secondary colours go well alongside the logo, and they are the colours that represent the brand.
+
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it includes the website's primary header & footer.
+    project: |
+      The project layout should be used on every single project page. It will include all of the information and images needed to show off a project.
