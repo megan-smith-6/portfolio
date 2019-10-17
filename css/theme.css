@@ -41,3 +41,7 @@ a {
   text-decoration: none;
   color: var(--color-secondary-dark);
 }
+
+mark {
+  background-color: var(--color-secondary);
+}
