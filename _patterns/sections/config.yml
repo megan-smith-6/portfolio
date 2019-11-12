@@ -7,10 +7,14 @@ patterns:
       title: "Card Section"
       description: |
         The card section is a group of four clickable cards that will be linked to each project page. It is located on the homepage only.
-    image-carousel:
+    image-carousel-5:
       title: "Image Carousel"
       description: |
-        The image carousel might not be used, but if it is, it will be used on each project page to show a variety of images that represent the project. It's purpose is to be put in place of the project card carousel if it doesn't work.
+        The image carousel will be used on each project page with 5 images that represent the project. It's purpose is to be put in place of the project card carousel if it doesn't work.
+    image-carousel-6:
+      title: "Image Carousel 2"
+      description: |
+        The image carousel will be used on each project page with 6 images that represent the project. It's purpose is to be put in place of the project card carousel if it doesn't work.
     image-text-section:
       title: "Image Text Section"
       description: |
