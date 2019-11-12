@@ -25,3 +25,9 @@
 header {
   background-color: var(--color-accent-white);
 }
+
+.stay {
+  /* position: fixed;
+  top: 0;
+  width: 100%; */
+}
