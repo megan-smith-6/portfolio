@@ -1,3 +1,25 @@
 ---
-layout: project
+layout: default
 ---
+
+<section class="gutter-2">
+  <div class="grid">
+    <div class="unit s-1">
+      {% pattern sections/project-top-section %}
+    </div>
+    <div class="grid pad-t-2">
+      <div class="unit s-1 l-1-2 pad-b-2">
+        {% pattern sections/image-carousel %}
+      </div>
+      <div class="l-pad unit s-1 l-1-2">
+        {% pattern sections/project-text-section %}
+      </div>
+      <div class="unit s-1">
+        {% pattern sections/project-text-section %}
+      </div>
+      <div class="embed embed-16by9">
+        <iframe class="embed-item" src="https://vimeo.com/369983247" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
