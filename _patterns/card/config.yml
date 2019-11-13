@@ -23,3 +23,6 @@ patterns:
       - name: caption
         type: string
         example: "Explain the image briefly."
+      - name: url
+        type: url
+        example: "/#/"
