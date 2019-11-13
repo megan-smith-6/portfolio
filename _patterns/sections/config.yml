@@ -54,6 +54,16 @@ patterns:
       title: "Image Text Section"
       description: |
         This section will be used on the about page only. It leaves space for a description and a portrait.
+      fields:
+      - name: title
+        type: string
+        example: "Project Title"
+      - name: text
+        type: string
+        example: "Description"
+      - name: image
+        type: string
+        example: "placeholder-1.jpg"
     text-section:
       title: "Text Section"
       description: |
@@ -62,10 +72,23 @@ patterns:
       title: "Project Top Section"
       description: |
         This section will be used at the top of each project page. It shows an image of the project and has a section for the title and the type of work that the project falls under.
-    project-card-carousel:
-      title: "Project Card Carousel"
-      description: |
-        This card section will be used on the project page. It is a group of four clickable cards that will be linked to 4 different photos about the project. On clicking the photo should increase to full size.
+      fields:
+      - name: title
+        type: string
+        example: "Project Title"
+      - name: type
+        type: string
+        example: "Type of project"
+      - name: text
+        type: string
+        example: "Brief Description of project"
+      - name: image
+        type: string
+        example: "placeholder-1.jpg"
+    # project-card-carousel:
+    #   title: "Project Card Carousel"
+    #   description: |
+    #     This card section will be used on the project page. It is a group of four clickable cards that will be linked to 4 different photos about the project. On clicking the photo should increase to full size.
     project-text-section:
       title: "Project Text Section"
       description: |
