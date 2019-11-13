@@ -59,6 +59,12 @@ patterns:
       - name: image
         type: string
         example: "placeholder-1.jpg"
+      - name: title
+        type: string
+        example: "Title"
+      - name: text
+        type: string
+        example: "Description of project"
     text-section-right:
       title: "Image Text Section Right"
       description: |
@@ -67,6 +73,12 @@ patterns:
       - name: image
         type: string
         example: "placeholder-1.jpg"
+      - name: title
+        type: string
+        example: "Title"
+      - name: text
+        type: string
+        example: "Description of project"
     text-section:
       title: "Text Section"
       description: |
@@ -103,3 +115,16 @@ patterns:
       title: "Project Text Section"
       description: |
         This section will be used on each project page. It's where all text regarding the in-depth project case studies will go.
+      fields:
+      - name: sentence1
+        type: string
+        example: "First sentence"
+      - name: sentence2
+        type: string
+        example: "Second sentence"
+      - name: sentence3
+        type: string
+        example: "Third sentence"
+      - name: sentence4
+        type: string
+        example: "Fourth sentence"
