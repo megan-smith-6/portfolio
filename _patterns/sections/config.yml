@@ -5,6 +5,7 @@ description: |
 patterns:
     card-section:
       title: "Card Section"
+      padding: 2em
       description: |
         The card section is a group of four clickable cards that will be linked to each project page. It is located on the homepage only.
     image-carousel-5:
@@ -50,17 +51,19 @@ patterns:
       - name: image6
         type: string
         example: "placeholder-2.jpg"
-    image-text-section:
-      title: "Image Text Section"
+    text-section-left:
+      title: "Image Text Section Left"
       description: |
-        This section will be used on the about page only. It leaves space for a description and a portrait.
+        This section will be when an image needs to be on the left. It leaves space for a description and a portrait.
       fields:
-      - name: title
+      - name: image
         type: string
-        example: "Project Title"
-      - name: text
-        type: string
-        example: "Description"
+        example: "placeholder-1.jpg"
+    text-section-right:
+      title: "Image Text Section Right"
+      description: |
+        This section will be used when an image needs to be on the right. It leaves space for a description and a portrait.
+      fields:
       - name: image
         type: string
         example: "placeholder-1.jpg"
@@ -68,6 +71,13 @@ patterns:
       title: "Text Section"
       description: |
         The text section looks the same as the one featured in the image text section, but this one stands alone. It goes on the homepage.
+      fields:
+      - name: title
+        type: string
+        example: "Title"
+      - name: text
+        type: string
+        example: "Description of project"
     project-top-section:
       title: "Project Top Section"
       description: |
