@@ -2,6 +2,10 @@
   border-bottom: 8px solid var(--color-primary);
 }
 
+.no-hover {
+  border-bottom: 8px solid var(--color-primary);
+}
+
 .border-img:hover{
   border-bottom: 8px solid var(--color-secondary);
   transform: scale(1.050);
