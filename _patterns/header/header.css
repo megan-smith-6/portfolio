@@ -22,10 +22,6 @@ header {
   background-color: var(--color-accent-white);
 }
 
-.center-me {
-  margin: 0 auto;
-}
-
 .stay {
   /* position: fixed;
   top: 0;
@@ -41,6 +37,14 @@ header {
     .gutter-l {
       padding-right: 0.65rem;
       padding-left: 0;
+    }
+
+    .center-me {
+      margin: 0 auto;
+    }
+
+    .center-nav-small {
+      text-align: center;
     }
 
 }
@@ -63,6 +67,14 @@ header {
 
     .pad-small {
       padding-bottom: 0;
+    }
+
+    .center-me {
+      margin: 0;
+    }
+
+    .center-nav-small {
+      text-align: right;
     }
 
 }
