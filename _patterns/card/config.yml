@@ -8,3 +8,18 @@ patterns:
       padding: 2em
       description: |
         The clickable card is used to show a small thumbnail of each project. Once clicked it will take you to the designated project page.
+      fields:
+      - name: image
+        type: string
+        example: "placeholder-1.jpg"
+    image-card:
+      title: "Image Card"
+      description: |
+        The image card is used to show a small thumbnail a project with a caption to explain it briefly.
+      fields:
+      - name: image
+        type: string
+        example: "placeholder-1.jpg"
+      - name: caption
+        type: string
+        example: "Explain the image briefly."
