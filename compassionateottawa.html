@@ -5,17 +5,25 @@ layout: default
 <section class="gutter-2">
   <div class="grid">
     <div class="unit s-1">
-      {% pattern sections/project-top-section %}
+      {% pattern sections/project-top-section title="Compassionate Ottawa" type="Branding | Website Design | UI/UX" text="This project. " image="/compassionate-ottawa/on-mockup.jpg" %}
     </div>
     <div class="grid pad-t-2">
-      <div class="unit s-1 l-1-2 pad-b-2">
-        {% pattern sections/image-carousel-5 %}
+      <div class="unit xs-1 l-1-2 pad-b-2">
+        {% pattern sections/image-carousel-5
+          image1="compassionate-ottawa/logo-sketches.jpg"
+          image2="compassionate-ottawa/old-to-new.jpg"
+          image3="compassionate-ottawa/laptop-mockup.jpg"
+          image4="compassionate-ottawa/screen-grid.jpg"
+          image5="compassionate-ottawa/test-cards-banners.jpg"
+        %}
       </div>
-      <div class="l-pad unit s-1 l-1-2">
-        {% pattern sections/project-text-section %}
-      </div>
-      <div class="unit s-1">
-        {% pattern sections/project-text-section %}
+      <div class="l-pad unit xs-1 l-1-2">
+        {% pattern sections/project-text-section
+          sentence1="ahsjdhasjdhasdjahsdjahsdjashd Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          sentence2="Second sentence"
+          sentence3="Third sentence"
+          sentence4="Fourth sentence"
+        %}
       </div>
     </div>
   </div>
