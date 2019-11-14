@@ -23,57 +23,26 @@ header {
 }
 
 .stay {
-  /* position: fixed;
+  position: fixed;
   top: 0;
-  width: 100%; */
+  width: 100%;
 }
 
-@media only screen and (min-width: 0em) {
+.logo-p {
+  text-align: center;
+}
 
-    .pad-small {
-      padding-bottom: 1em;
-    }
-
-    .gutter-l {
-      padding-right: 0.65rem;
-      padding-left: 0;
-    }
-
-    .center-me {
-      margin: 0 auto;
-    }
-
-    .center-nav-small {
-      text-align: center;
-    }
-
+.nav {
+  text-align: center;
 }
 
 @media only screen and (min-width: 38em) {
 
-    .right-a {
-      text-align: right;
+    .logo-p {
+      text-align: left;
     }
 
-    .gutter-r {
-      padding-left: .65rem;
-      padding-right: 1.3rem;
-    }
-
-    .gutter-l {
-      padding-right: 0.65rem;
-      padding-left: 1.3rem;
-    }
-
-    .pad-small {
-      padding-bottom: 0;
-    }
-
-    .center-me {
-      margin: 0;
-    }
-
-    .center-nav-small {
+    .nav {
       text-align: right;
     }
 
