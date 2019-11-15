@@ -8,8 +8,25 @@ patterns:
       padding: 2em
       description: |
         The card section is a group of four clickable cards that will be linked to each project page. It is located on the homepage only.
+    image-carousel-4:
+      title: "Image Carousel 4"
+      description: |
+        The image carousel will be used on each project page with 4 images that represent the project. It's purpose is to be put in place of the project card carousel if it doesn't work.
+      fields:
+      - name: image1
+        type: string
+        example: "placeholder-1.jpg"
+      - name: image2
+        type: string
+        example: "placeholder-2.jpg"
+      - name: image3
+        type: string
+        example: "placeholder-1.jpg"
+      - name: image4
+        type: string
+        example: "placeholder-2.jpg"
     image-carousel-5:
-      title: "Image Carousel"
+      title: "Image Carousel 5"
       description: |
         The image carousel will be used on each project page with 5 images that represent the project. It's purpose is to be put in place of the project card carousel if it doesn't work.
       fields:
@@ -29,7 +46,7 @@ patterns:
         type: string
         example: "placeholder-1.jpg"
     image-carousel-6:
-      title: "Image Carousel 2"
+      title: "Image Carousel 6"
       description: |
         The image carousel will be used on each project page with 6 images that represent the project. It's purpose is to be put in place of the project card carousel if it doesn't work.
       fields:
