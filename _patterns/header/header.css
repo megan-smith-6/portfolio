@@ -3,6 +3,10 @@
   transition: all 135ms ease;
 }
 
+.logo {
+  display: inline-block;
+}
+
 .logo:hover {
   transform: scale(1.1);
   transition: all 135ms ease;
