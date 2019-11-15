@@ -68,6 +68,14 @@ patterns:
       - name: image6
         type: string
         example: "placeholder-2.jpg"
+    carousel-caption:
+      title: "Carousel Caption"
+      description: |
+        This section is the caption that will be placed under each image carousel
+      fields:
+      - name: caption
+        type: string
+        example: "Explain each image briefly."
     text-section-left:
       title: "Image Text Section Left"
       description: |
