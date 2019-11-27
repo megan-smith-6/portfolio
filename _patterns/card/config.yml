@@ -12,6 +12,9 @@ patterns:
       - name: image
         type: string
         example: "placeholder-1.jpg"
+      - name: aria
+        type: string
+        example: "This is an aria label"
     image-caption-card:
       title: "Image Caption Card"
       description: |
