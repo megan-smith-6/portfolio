@@ -49,7 +49,7 @@
 #image-2-control:checked ~ .carousel-inner [for="image-2-control"],
 #image-3-control:checked ~ .carousel-inner [for="image-3-control"],
 #image-4-control:checked ~ .carousel-inner [for="image-4-control"],
-#image-5-control:checked ~ .carousel-inner [for="image-5-control"]
+#image-5-control:checked ~ .carousel-inner [for="image-5-control"],
 #image-6-control:checked ~ .carousel-inner [for="image-6-control"] {
   background-color: var(--color-secondary);
 }
