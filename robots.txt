@@ -1,0 +1,6 @@
+# robotstxt.org
+
+Sitemap: http://megansmithdesigns.ca/sitemap.xml
+
+User-Agent: *
+Disallow:
