@@ -25,6 +25,18 @@ patterns:
       - name: image4
         type: string
         example: "placeholder-2.jpg"
+      - name: aria1
+        type: string
+        example: "This is an aria label"
+      - name: aria2
+        type: string
+        example: "This is an aria label"
+      - name: aria3
+        type: string
+        example: "This is an aria label"
+      - name: aria4
+        type: string
+        example: "This is an aria label"
     image-carousel-5:
       title: "Image Carousel 5"
       description: |
@@ -90,6 +102,9 @@ patterns:
       - name: text
         type: string
         example: "Description of project"
+      - name: aria
+        type: string
+        example: "This is an aria label"
     text-section-right:
       title: "Image Text Section Right"
       description: |
@@ -135,10 +150,6 @@ patterns:
       - name: aria
         type: string
         example: "This is an aria label"
-    # project-card-carousel:
-    #   title: "Project Card Carousel"
-    #   description: |
-    #     This card section will be used on the project page. It is a group of four clickable cards that will be linked to 4 different photos about the project. On clicking the photo should increase to full size.
     project-text-section:
       title: "Project Text Section"
       description: |
