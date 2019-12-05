@@ -132,6 +132,9 @@ patterns:
       - name: image
         type: string
         example: "placeholder-1.jpg"
+      - name: aria
+        type: string
+        example: "This is an aria label"
     # project-card-carousel:
     #   title: "Project Card Carousel"
     #   description: |
