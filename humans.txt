@@ -1,0 +1,35 @@
+# humanstxt.org
+
+# TEAM
+
+Designer: Megan Smith <contact@megansmithdesigns.ca>
+Site: http://megansmithdesigns.ca
+Instagram: @megan.designer
+Location: Ottawa, Canada
+
+##Compassionate Ottawa Team##
+
+Public Relations: Maya Mills
+LinkedIn: https://www.linkedin.com/in/maya-mills/
+Location: Ottawa, Canada
+
+Marketing and Advertising: Sydney Hill
+LinkedIn: https://www.linkedin.com/in/sydneyhill613/
+Location: Ottawa, Canada
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Atom Text Editor
+- Github
+- Adobe Creative Suite
+
+## Hosting
+
+- Netlify <https://www.netlify.com>
+- Github <https://github.com>
+- Hover <https://www.hover.com>
+- CloudFlare <https://cloudflare.com>
