@@ -57,6 +57,21 @@ patterns:
       - name: image5
         type: string
         example: "placeholder-1.jpg"
+      - name: aria1
+        type: string
+        example: "This is an aria label"
+      - name: aria2
+        type: string
+        example: "This is an aria label"
+      - name: aria3
+        type: string
+        example: "This is an aria label"
+      - name: aria4
+        type: string
+        example: "This is an aria label"
+      - name: aria5
+        type: string
+        example: "This is an aria label"
     image-carousel-6:
       title: "Image Carousel 6"
       description: |
@@ -80,6 +95,15 @@ patterns:
       - name: image6
         type: string
         example: "placeholder-2.jpg"
+      - name: aria4
+        type: string
+        example: "This is an aria label"
+      - name: aria5
+        type: string
+        example: "This is an aria label"
+      - name: aria6
+        type: string
+        example: "This is an aria label"
     carousel-caption:
       title: "Carousel Caption"
       description: |
