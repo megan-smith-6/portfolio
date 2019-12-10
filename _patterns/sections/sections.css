@@ -31,6 +31,10 @@
   display: none;
 }
 
+.small-pad {
+  padding-top: 1em;
+}
+
 #image-1-control:checked ~ .carousel-inner #image-1,
 #image-2-control:checked ~ .carousel-inner #image-2,
 #image-3-control:checked ~ .carousel-inner #image-3,
@@ -89,6 +93,15 @@
   .h1-border {
     border-bottom: 8px solid var(--color-secondary);
     max-width: 90%;
+  }
+
+}
+
+
+@media only screen and (min-width: 60em) {
+
+  .small-pad {
+    padding-top: 0em;
   }
 
 }
