@@ -26,9 +26,9 @@ patterns:
       - name: caption
         type: string
         example: "Explain the image briefly."
-      - name: url
-        type: url
-        example: "/#/"
+      - name: aria
+        type: string
+        example: "This is an aria label"
     image-card:
       title: "Image Card"
       description: |
