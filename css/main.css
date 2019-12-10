@@ -11,10 +11,24 @@
   padding-top: 10.5em;
 }
 
+.dead {
+  max-width: 10em;
+  margin: 0 auto;
+}
+
+.linky-dink:hover {
+  border-bottom: 4px solid var(--color-secondary);
+  transition: all 135ms ease;
+}
+
+.linky-dink {
+  border-bottom: 4px solid transparent;
+}
+
 @media only screen and (min-width: 38em) {
 
   .alotta-pad {
-    padding-top: 10em;
+    padding-top: 7.5em;
   }
 
 }
