@@ -24,11 +24,19 @@ a:hover {
   border: 1px solid #EDEDED;
 }
 
-/* .alotta-pad {
-  padding-top: 10.5em;
+.alotta-pad {
+  padding-top: 5em;
 }
 
-.dead {
+@media only screen and (min-width: 38em) {
+
+  .alotta-pad {
+    padding-top: 4.9em;
+  }
+
+}
+
+/* .dead {
   max-width: 10em;
   margin: 0 auto;
 }
