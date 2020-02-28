@@ -1,8 +1,11 @@
 :root {
-  --color-primary: #24bbf2;
-  --color-secondary: #ff9160;
-  --color-secondary-dark: #7b7b7b;
-  --color-accent-white: #fff;
+  --color-primary: #F47D97;
+  --color-primary-2: #FDF374;
+  --color-accent-pink: #F8BBC6;
+  --color-accent-nav: #BFBFBF;
+  --color-accent-dark: #545454;
+  --color-accent-white: #fcfcfc;
+  --color-accent-black: #000;
   --font-primary: "Quicksand", sans-serif;
 }
 
@@ -11,12 +14,12 @@ html {
 }
 
 h1 {
-  color: var(--color-secondary-dark);
+  color: var(--color-accent-dark);
   font-weight: bold;
 }
 
 h2 {
-  color: var(--color-primary);
+  color: var(--color-accent-dark);
   font-weight: bold;
 }
 }
@@ -25,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--color-secondary-dark);
+  color: var(--color-accent-dark);
   font-weight: normal;
 }
 
@@ -33,15 +36,16 @@ ul, li
 ol, li {
   list-style: none;
   text-decoration: none;
-  color: var(--color-secondary-dark);
+  color: var(--color-accent-nav);
 }
 
 a {
   list-style: none;
   text-decoration: none;
-  color: var(--color-secondary-dark);
+  color: var(--color-accent-nav);
 }
 
 mark {
-  background-color: var(--color-secondary);
+  background-color: var(--color-primary-2);
+  color: var(--color-accent-black);
 }
