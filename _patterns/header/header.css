@@ -1,0 +1,75 @@
+header {
+  background-color: var(--color-accent-white);
+}
+
+.logo-p {
+  text-align: center;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  transition: all 150ms ease;
+}
+
+.i-56 {
+  height: 50px;
+  width: 50px;
+}
+
+.pad-small {
+  padding-top: 1em;
+  padding-bottom: .5em;
+}
+
+.nav-btn:hover {
+  color: var(--color-primary);
+  transition: all 100ms ease;
+}
+
+.gutter-nav{
+  padding-left: .75em;
+  padding-right: .75em;
+}
+
+.pad-r {
+  padding-right: .75em;
+}
+
+.nav {
+  text-align: center;
+}
+
+#current {
+  font-weight: bold;
+  color: #F47D97;
+}
+
+@media only screen and (min-width: 38em) {
+
+    .logo-p {
+      text-align: left;
+    }
+
+    .pad-small {
+      padding-top: 0em;
+      padding-bottom: 0em;
+    }
+
+    .gutter-nav{
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+
+    .pad-r {
+      padding-right: 1em;
+    }
+
+    .nav {
+      text-align: right;
+    }
+
+}
