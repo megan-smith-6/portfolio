@@ -20,6 +20,10 @@ a:hover {
   transition: all 300ms ease;
 }
 
+.border {
+  border: 1px solid #EDEDED;
+}
+
 /* .alotta-pad {
   padding-top: 10.5em;
 }
