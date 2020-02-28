@@ -7,7 +7,9 @@
 {% include_relative theme.css %}
 {% pattern_css %}
 
-.alotta-pad {
+
+
+/* .alotta-pad {
   padding-top: 10.5em;
 }
 
@@ -55,4 +57,4 @@
     padding-right: 13vw;
   }
 
-}
+} */
