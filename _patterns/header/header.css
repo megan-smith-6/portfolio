@@ -38,7 +38,7 @@ header {
   text-align: center;
 }
 
-#current {
+.nav-current {
   font-weight: bold;
   color: #F47D97;
 }
