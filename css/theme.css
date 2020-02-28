@@ -32,6 +32,10 @@ h6 {
   font-weight: normal;
 }
 
+p {
+  color: var(--color-accent-dark);
+}
+
 ul, li
 ol, li {
   list-style: none;

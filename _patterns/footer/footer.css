@@ -1,0 +1,35 @@
+footer {
+  background-color: var(--color-accent-white);
+}
+
+.center-l, .center-r {
+  text-align: center;
+}
+
+.copy-space {
+  margin-bottom: 2em;
+}
+
+.location-space {
+  margin-bottom: .75em;
+}
+
+@media only screen and (min-width: 38em) {
+
+    .center-r {
+      text-align: right;
+    }
+
+    .center-l {
+      text-align: left;
+    }
+
+    .copy-space {
+      margin-bottom: 3em;
+    }
+
+    .location-space {
+      margin-bottom: 0em;
+    }
+
+}
