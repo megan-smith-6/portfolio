@@ -27,6 +27,14 @@
   background-color: #F5DFE7;
 }
 
+.yellow {
+  background-color: #;
+}
+
+.purple {
+  background-color: #;
+}
+
 .container:hover .overlay {
   opacity: 1;
 }
