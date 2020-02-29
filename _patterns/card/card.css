@@ -1,3 +1,32 @@
+.container {
+
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 500ms ease;
+}
+
+.blue {
+  background-color: #CED4E2;
+}
+
 .pink {
-  background-color: var(--color-accent-pink);
+  background-color: #F5DFE7;
+}
+
+.container:hover .overlay {
+  opacity: 1;
 }
