@@ -24,60 +24,21 @@ a:hover {
   border: 1px solid #EDEDED;
 }
 
-.alotta-pad {
-  padding-top: 5em;
+.push-it {
+  padding-bottom: 1.5em;
 }
+
+.h-1-6 {
+  max-height: 15em;
+  max-width: 15em;
+}
+
 
 @media only screen and (min-width: 38em) {
 
-  .alotta-pad {
-    padding-top: 4.9em;
+  .push-it {
+    padding-bottom: 0em;
   }
 
-}
-
-/* .dead {
-  max-width: 10em;
-  margin: 0 auto;
-}
-
-.linky-dink:hover {
-  border-bottom: 4px solid var(--color-secondary);
-  transition: all 135ms ease;
-}
-
-.linky-dink {
-  border-bottom: 4px solid transparent;
-}
-
-@media only screen and (min-width: 38em) {
-
-  .alotta-pad {
-    padding-top: 7.5em;
-  }
 
 }
-
-@media only screen and (min-width: 60em) {
-
-  .l-pad {
-    padding-left: 6vw;
-  }
-
-  .r-pad {
-    padding-right: 6vw;
-  }
-
-}
-
-@media only screen and (min-width: 81em) {
-
-  .l-pad {
-    padding-left: 13vw;
-  }
-
-  .r-pad {
-    padding-right: 13vw;
-  }
-
-} */
