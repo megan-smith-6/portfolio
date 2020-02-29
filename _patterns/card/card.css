@@ -16,7 +16,7 @@
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: 500ms ease;
+  transition: 400ms ease;
 }
 
 .blue {
@@ -28,11 +28,11 @@
 }
 
 .yellow {
-  background-color: #;
+  background-color: #FFF899;
 }
 
 .purple {
-  background-color: #;
+  background-color: #E4E2FA;
 }
 
 .container:hover .overlay {
