@@ -33,6 +33,12 @@ a:hover {
   max-width: 15em;
 }
 
+.max-about {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 41.5em;
+  width: 100%;
+}
 
 @media only screen and (min-width: 38em) {
 
