@@ -35,6 +35,14 @@
   background-color: #E4E2FA;
 }
 
+.youth-ottawa {
+  background-color: #A8D88F;
+}
+
+.my-brand {
+  background-color: #F8BBC6;
+}
+
 .container:hover .overlay {
   opacity: 1;
 }
