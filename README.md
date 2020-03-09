@@ -2,7 +2,8 @@
 
 ### [Megan Smith's Portfolio](http://megansmithdesigns.ca/)
 
-I am whole heartedly inspired by psychology, and how the brain works. But as a creative, I found myself struggling to find what I wanted to do in my future. I wanted to be able to incorporate both my love for psychology and fine arts, but I didn’t want to go into either of those fields. So, when I came across graphic design it strongly resonated with me, because I thought “hey, I could make something, and it could then be associated with a product or company”. Psychology and art working together at their finest, am I right?
+I am passionate about graphic design and visual arts. I love illustration and building brands, but aside from design I have another love—music. I get a lot of my inspiration from music and I love that a persons music taste can really say who they are or how they feel without them even having to speak.
+Music isn’t much different from graphic design or visual art. I believe that designs should be able to speak for themselves without any explanation. They should have their own voices, styles, and stories. Music and design are both subjective, but telling the story you want to tell and having people understand just by looking... that's always my goal!
 
 - [contact@megansmithdesigns.ca](mailto:contact@megansmithdesigns.ca)
 - [Link to LinkedIn](https://www.linkedin.com/in/megan-smith-designer/)
