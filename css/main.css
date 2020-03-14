@@ -60,6 +60,15 @@ hr {
   width: 100%;
 }
 
+.get-low {
+  padding-bottom: 1em;
+}
+
+.iconn:hover {
+  transform: scale(1.1);
+  transition: all 240ms ease;
+}
+
 @media only screen and (min-width: 38em) {
 
   .push-it {
@@ -71,5 +80,9 @@ hr {
     margin-right: auto;
     max-width: 20em;
     width: 100%;
+
+  .get-low {
+    padding-bottom: 0em;
+  }
 
 }
