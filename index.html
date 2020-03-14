@@ -1,26 +1,22 @@
 ---
 layout: default
+highlight_nav: index
 title: Megan Smith's Portfolio
 info: A collection of all the portfolio projects by Megan Smith.
 url: /index
 sitename: Megan Smith's Portfolio
 ---
 
-<section class="gutter-2">
-  <div class="unit xs-1 hidden">
-    <img src="/images/thumbnail.jpg" alt="An illustration of my thumbnail">
-  </div>
-  <div class="grid">
-    <div class="unit s-1 l-1-2">
-      {% pattern sections/text-section title="Hi There!" text="I’m a graphic designer based in Ottawa with a strong passion for branding, UI/UX, and illustration. Please click on one of the images to view my work!" %}
-    </div>
-    <div class="l-pad unit s-1 l-1-2">
-      {% pattern sections/card-section %}
-    </div>
-  </div>
-  <div class="grid pad-t-1-8">
-    <div class="pad-t-2 unit xs-1">
-      {% pattern sections/text-section-left image="me.jpg" title="Hi, I'm Megan" text="I am whole heartedly inspired by psychology, and how the brain works. But as a creative, I found myself struggling to find what I wanted to do in my future. I wanted to be able to incorporate both my love for psychology and fine arts, but I didn’t want to go into either of those fields. So, when I came across graphic design it strongly resonated with me, because I thought “hey, I could make something, and it could then be associated with a product or company”. Psychology and art working together at their finest, am I right?" aria="This is an image of me smiling" %}
-    </div>
-  </div>
-</section>
+<div class="unit xs-1 hidden">
+  <img src="/images/thumbnail.jpg" alt="An illustration of my thumbnail">
+</div>
+
+<div class="push-0">
+  {% pattern banner/banner %}
+</div>
+
+{% pattern sections/hmpg-cards %}
+
+{% pattern sections/see-more %}
+
+{% pattern buttons/top %}

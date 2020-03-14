@@ -1,0 +1,14 @@
+.banner {
+  background-image: url("../images/colours.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  min-height: 10em;
+  max-height: 12em;
+  overflow: hidden;
+  background-position: center;
+}
+
+.black {
+  color: var(--color-accent-black);
+}

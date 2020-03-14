@@ -1,13 +1,48 @@
-.border-img {
-  border-bottom: 8px solid var(--color-primary);
+.container {
+
 }
 
-.no-hover {
-  border-bottom: 8px solid var(--color-primary);
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
-.border-img:hover{
-  border-bottom: 8px solid var(--color-secondary);
-  transform: scale(1.050);
-  transition: all 150ms ease;
+.overlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 400ms ease;
+}
+
+.blue {
+  background-color: #CED4E2;
+}
+
+.pink {
+  background-color: #F5DFE7;
+}
+
+.yellow {
+  background-color: #FFF899;
+}
+
+.purple {
+  background-color: #E4E2FA;
+}
+
+.youth-ottawa {
+  background-color: #A8D88F;
+}
+
+.my-brand {
+  background-color: #F8BBC6;
+}
+
+.container:hover .overlay {
+  opacity: 1;
 }

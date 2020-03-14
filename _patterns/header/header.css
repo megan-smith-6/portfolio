@@ -1,6 +1,9 @@
-.nav-btn:hover {
-  border-bottom: 4px solid var(--color-secondary);
-  transition: all 135ms ease;
+header {
+  background-color: var(--color-accent-white);
+}
+
+.logo-p {
+  text-align: center;
 }
 
 .logo {
@@ -9,41 +12,35 @@
 
 .logo:hover {
   transform: scale(1.1);
-  transition: all 135ms ease;
+  transition: all 240ms ease;
 }
 
-.nav-btn {
-  border-bottom: 4px solid transparent;
+.i-56 {
+  height: 50px;
+  width: 50px;
 }
 
-.nav-current {
-  font-weight: bold;
-  color: var(--color-secondary);
-  border-bottom: 4px solid var(--color-secondary);
+.pad-small {
+  padding-top: 1em;
+  padding-bottom: .5em;
 }
 
-header {
-  background-color: var(--color-accent-white);
+.gutter-nav{
+  padding-left: .75em;
+  padding-right: .75em;
 }
 
-.stay {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 100;
-}
-
-.logo-p {
-  text-align: center;
+.pad-r {
+  padding-right: .75em;
 }
 
 .nav {
   text-align: center;
 }
 
-.gutter-nav{
-  padding-left: 1em;
-  padding-right: 1em;
+.nav-current {
+  font-weight: bold;
+  color: #F47D97;
 }
 
 @media only screen and (min-width: 38em) {
@@ -52,13 +49,22 @@ header {
       text-align: left;
     }
 
-    .nav {
-      text-align: right;
+    .pad-small {
+      padding-top: 0em;
+      padding-bottom: 0em;
     }
 
     .gutter-nav{
-      padding-left: 2em;
-      padding-right: 2em;
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+
+    .pad-r {
+      padding-right: 1em;
+    }
+
+    .nav {
+      text-align: right;
     }
 
 }

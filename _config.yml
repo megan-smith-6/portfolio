@@ -6,7 +6,7 @@ patternbot:
   title: "Megan Smith's Portfolio"
   description: |
     "This is Megan's online portfolio that will be used to show her design work"
-  font_url: "https://fonts.googleapis.com/css?family=Nunito:400,700"
+  font_url: "https://fonts.googleapis.com/css?family=Quicksand:400,500,700&display=swap"
   colors:
     background: "--color-accent-white"
     accent: "--color-primary"

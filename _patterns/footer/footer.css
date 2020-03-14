@@ -1,12 +1,35 @@
-.img-center {
-  margin: 0 auto;
+footer {
+  background-color: var(--color-accent-white);
 }
 
-.social-icon:hover {
-  transform: scale(1.2);
-  transition: all 135ms ease;
+.center-l, .center-r {
+  text-align: center;
 }
 
-.blue {
-  color: var(--color-primary);
+.copy-space {
+  margin-bottom: 1.75em;
+}
+
+.location-space {
+  margin-bottom: .75em;
+}
+
+@media only screen and (min-width: 38em) {
+
+    .center-r {
+      text-align: right;
+    }
+
+    .center-l {
+      text-align: left;
+    }
+
+    .copy-space {
+      margin-bottom: 3em;
+    }
+
+    .location-space {
+      margin-bottom: 0em;
+    }
+
 }
