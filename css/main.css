@@ -11,6 +11,19 @@
   color: var(--color-accent-dark);
 }
 
+.btn {
+  background-color: var(--color-accent-nav);
+  border: none;
+  color: var(--color-accent-dark);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--color-accent-pink);
+  transition: all 450ms ease;
+  color: var(--color-accent-white);
+}
+
 a {
   color: #BFBFBF;
 }
@@ -22,8 +35,6 @@ a:hover {
 
 hr {
   border: 1px solid #BFBFBF;
-}
-
 }
 
 .border {
@@ -80,6 +91,7 @@ hr {
     margin-right: auto;
     max-width: 20em;
     width: 100%;
+  }
 
   .get-low {
     padding-bottom: 0em;
